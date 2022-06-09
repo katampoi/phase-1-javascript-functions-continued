@@ -5,9 +5,9 @@ const saturdayFun = function(action = 'roller-skate'){
 }
 const mondayWork = function (event = 'go to the office'){
 
-    return `This Monday, I will ${event}.`
+    return `This Monday,I will ${event}.`
 }
-const wrapAdjective = function (special ="*"){
+const wrapAdjective =function(special ="*"){
     return function (type = 'a dedicated programmer'){
     return `You are ${special}${type}${special}!`
 }
